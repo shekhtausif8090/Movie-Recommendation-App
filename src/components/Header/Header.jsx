@@ -23,7 +23,7 @@ function Header() {
 
 const Wrapper = styled.div`
   height: 200px;
-  background-color: #f6a5b3;
+  background-color: #67e8f9;
   display: flex;
   padding-top: 48px;
   align-items: baseline;

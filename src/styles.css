@@ -1,0 +1,61 @@
+:root {
+    --font-weight-bold: 600;
+    --font-weight-medium: 500;
+    --font-weight-light: 400;
+    --font-family: 'Open Sans', sans-serif;
+  }
+
+  html{
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-light);
+  }
+
+  body{
+  min-height: 100vh;
+  min-height: 100svh;
+ 
+  }
+
+  button {
+    padding: 0;
+  }
+
+  ul,li{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+ 
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+ 
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+ 
+  input, button, textarea, select {
+    font: inherit;
+  }
+ 
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+ 

@@ -1,0 +1,5 @@
+export const API_KEY = c9f65229ce92fdeb1e46d2304fb24b6b;
+export const API_TOKEN =
+  eyJhbGciOiJIUzI1NiJ9
+    .eyJhdWQiOiJjOWY2NTIyOWNlOTJmZGViMWU0NmQyMzA0ZmIyNGI2YiIsInN1YiI6IjY1YWI5NGNiYmU2ZDg4MDBiZDkyN2NkZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ
+    .lhfgxNXNpsr1zDYla - qu9BS6I4FwFI_9bP8ZWOchbfs;

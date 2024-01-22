@@ -1,12 +1,9 @@
-import React from 'react';
-import axios from 'axios';
-
-async function FetchData({ queryKey }) {
+async function FetchSeries({ queryKey }) {
   console.log(queryKey);
   let page = queryKey[1];
 
   const res = await fetch(
-    `https://api.themoviedb.org/3/discover/movie?language=en-US&page=${page}`,
+    `https://api.themoviedb.org/3/discover/tv?include_adult=true&page=${page}`,
     {
       method: 'GET',
       headers: {
@@ -22,4 +19,4 @@ async function FetchData({ queryKey }) {
   return res.json();
 }
 
-export default FetchData;
+export default FetchSeries;

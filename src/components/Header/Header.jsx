@@ -22,7 +22,7 @@ function Header() {
 }
 
 const Wrapper = styled.div`
-  height: 200px;
+  min-height: 150px;
   background-color: #67e8f9;
   display: flex;
   padding-top: 48px;
@@ -51,22 +51,22 @@ const Links = [
   {
     id: '01',
     label: 'Movies',
-    path: '/m',
+    path: '/movies',
   },
   {
     id: '02',
-    label: 'Tv Series',
-    path: '/tv',
+    label: 'Series',
+    path: '/series',
   },
   {
     id: '03',
     label: 'Genere',
-    path: '/g',
+    path: '/genere',
   },
   {
     id: '04',
     label: 'By Year',
-    path: '/y',
+    path: '/year',
   },
 ];
 

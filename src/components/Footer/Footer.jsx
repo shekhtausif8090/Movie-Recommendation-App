@@ -10,4 +10,5 @@ export default Footer;
 const Wrapper = styled.footer`
   position: fixed;
   bottom: 0;
+  border: 1px solid black;
 `;

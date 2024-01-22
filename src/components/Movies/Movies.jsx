@@ -1,6 +1,6 @@
 import React from 'react';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
-import FetchData from '../Fetch-data/FetchData';
+import FetchData from '../Fetch-data/FetchMovies';
 import Card from '../Card/Card';
 import { ChevronsLeft, ChevronsRight } from 'lucide-react';
 import styled from 'styled-components';

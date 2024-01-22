@@ -1,6 +1,3 @@
-import React from 'react';
-import axios from 'axios';
-
 async function FetchData({ queryKey }) {
   console.log(queryKey);
   let page = queryKey[1];

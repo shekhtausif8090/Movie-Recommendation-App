@@ -1,7 +1,7 @@
 import React from 'react';
 import { Loader } from 'lucide-react';
 import styled, { keyframes } from 'styled-components';
-const Spinner = ({ color, size }) => {
+const Spinner = ({ size }) => {
   return (
     <Wrapper>
       <Loader color="#374151" size={size} />

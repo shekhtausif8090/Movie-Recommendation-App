@@ -12,9 +12,10 @@ function Layout() {
   return (
     <div>
       <Header />
-      <div>
+      <main>
         <Outlet />
-      </div>
+      </main>
+
       <Footer />
     </div>
   );
